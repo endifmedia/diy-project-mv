@@ -120,7 +120,8 @@ class Diy_Projects_Public {
 			?>
 
 				<style type="text/css">
-					.<?php echo $this->plugin_name . '-display-container'; ?> {background-color: <?php echo esc_attr($options['background_color']); ?>}
+					.<?php echo $this->plugin_name . '-display-container'; ?> {background-color: <?php echo esc_attr($options['background_color']); ?>; padding: 10px;margin-bottom: .5em;}
+					.<?php echo $this->plugin_name . '-display-container'; ?> p {margin: .5em;}
 				</style>
 
 		    <?php }
