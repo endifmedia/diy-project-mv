@@ -1,0 +1,48 @@
+# Mac
+.DS_Store
+
+# PhpStorm
+.idea/
+
+# Eclipse
+/.project
+
+# Sass
+*.css.map
+
+# WordPress
+*.log
+.htaccess
+db-creds.php
+sitemap.xml
+sitemap.xml.gz
+wp-content/backup-db/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/plugins/wordfence/tmp/configCache.php
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/w3tc-config/index.html
+wp-content/w3tc-config/master.php
+wp-content/w3tc-config/master-admin.php
+wp-content/debug.log
+
+# Ignore safe files in uploads directory
+wp-content/uploads/**/*.[cC][sS][vV]
+wp-content/uploads/**/*.[gG][iI][fF]
+wp-content/uploads/**/*.[iI][nN][fF][oO]
+wp-content/uploads/**/*.[jJ][pP][gG]
+wp-content/uploads/**/*.[jJ][pP][eE][gG]
+wp-content/uploads/**/*.[pP][dD][fF]
+wp-content/uploads/**/*.[pP][nN][gG]
+wp-content/uploads/**/*.[pP][pP][tT]
+wp-content/uploads/**/*.[tT][xX][tT]
+wp-content/uploads/**/*.[wW][aA][vV]
+wp-content/uploads/**/*.[xX][mM][lL]
+wp-content/uploads/**/*.[xX][lL][sS]
+wp-content/uploads/WPFMP_DATA/.sc_wpfmp_admin_alert_content
+wp-content/uploads/WPFMP_DATA/.sc_wpfmp_scan_data
+
+# Ignore robots.txt, used on dev
+/robots.txt
