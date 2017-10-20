@@ -75,8 +75,12 @@ class Diy_Projects_Public {
 			$post_meta = array();
 			$post_meta = get_post_meta( $post->ID, 'diy_projects_post_meta', true );
 
-			//if meta content is empty return content
-			if (!array_filter($post_meta) ) {
+			/**
+			 * if meta content is empty or doesn't exist 
+			 * (posts created before plugin was installed) 
+			 * return the_content 
+			 */
+			if (empty($post_meta) || !array_filter($post_meta) ) {
 				return;
 			}
 
